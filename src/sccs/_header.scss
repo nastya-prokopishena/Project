@@ -1,0 +1,157 @@
+.header {
+    
+
+    &__top {
+
+        position: fixed;
+        //position: absolute;
+        height: 112px;
+        left: 0px;
+        right: 0px;
+
+        background: #FFFFFF;
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        &-logo {
+            position: absolute;
+            width: 125px;
+            height: 32px;
+            left: 96px;
+            top: 44px;
+        }
+        &-logo-text {
+            font-family: 'Newsreader-Medium';
+            font-size: 26px;
+            line-height: 100%;
+            letter-spacing: -0.01em;
+            color: #426B1F;
+        }
+        &-list{
+            width: 595px;
+            display: flex;
+            justify-content: space-between;
+            margin-left: 729px;
+            margin-right: 80px;
+            height: 21px;
+            margin-top: 45.5px;
+
+            &-item {
+                margin-right: 50px;
+            }
+
+            &-link{
+                font-family: 'Inter-Regular';
+                font-size: 16px;
+                line-height: 130%;
+                position: relative;
+                color: #000000;
+            }
+        }
+        &-button {
+            position: absolute;
+            width: 126px;
+            height: 48px;
+            right: 96px;
+            top: 32px;
+            background: #426B1F;
+            border: 1px;
+            border-radius: 8px;
+            font-family: 'Inter-SemiBold';  
+            font-size: 16px;
+            line-height: 130%;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+            &:hover{
+                color: #1f2f11;
+            }
+        }
+    }
+    &__content {
+        width: 100%;
+        background-image: url(images/header_background.png);
+        height: 150vh;
+        background-repeat: no-repeat;
+        -o-background-size: cover;
+        -moz-background-size: cover;
+        -webkit-background-size:cover;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: -100px;
+        padding-bottom: 100px;
+        
+        
+        &-name {
+            margin-top: 285px;
+            margin-left: 450px;
+            margin-right: 450px;
+        }
+        &-title {
+            font-size: 64px;
+            font-family: 'Newsreader';
+            line-height: 120%;
+            text-align: center;
+            letter-spacing: -0.02em;
+            color: #FFFFFF;
+            text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        }
+        &-button {
+            
+            width: 227px;
+            height: 64px;
+            margin-left: 200px;
+            margin-top: 45px;
+            top: 481px;
+            background: #426B1F;
+            border-radius: 8px;
+            border: 1px;
+            font-family: 'Inter-SemiBold';  
+            font-size: 20px;
+            line-height: 130%;
+            align-items: center;
+            text-align: center;
+            color: #FFFFFF;
+            &:hover{
+                color: #1f2f11;
+            }
+        }
+        &-poster {
+            position: absolute;
+            width: 1200px;
+            height: 461px;
+            left: 150px;
+            top: 757px;
+            background: #D9D9D9;
+            border-radius: 314.5px;
+            margin-top: 80px;
+        }
+        &-img {
+            width: 322px;
+            height: 284px;
+            margin-left: 693px;
+            margin-top: 89px;
+           
+        }
+        &-text {
+            position: absolute;
+            width: 444px;
+            height: 264px;
+            left: 185px;
+            top: 125px;
+
+
+        }
+        &-question {
+            font-family: 'Merienda-Bold';
+            font-size: 110px;
+            //line-height: 120%;
+            letter-spacing: -0.01em;
+            color: #000000;
+            
+            
+        }
+    }
+}
